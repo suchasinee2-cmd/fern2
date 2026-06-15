@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f6f9;
+}
+
+/* Navbar */
+.navbar{
+    background:linear-gradient(90deg,#4e54c8,#8f94fb);
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.navbar-brand img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:10px;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color:#ffd43b !important;
+}
+
+/* Banner */
+.banner{
+    height:500px;
+    background:linear-gradient(rgba(0,0,0,.4),
+    rgba(0,0,0,.4)),
+    url("ท้องฟ้า.jpeg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.banner h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.banner p{
+    font-size:22px;
+}
+
+/* Section */
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-weight:bold;
+    color:#4e54c8;
+}
+
+/* Cards */
+.custom-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.custom-card:hover{
+    transform:translateY(-10px);
+}
+
+.custom-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+/* Gallery */
+.gallery-img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+}
+
+/* About */
+.about-section{
+    background:#4e54c8;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+/* Contact */
+#contact{
+    background:white;
+}
